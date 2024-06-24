@@ -1,4 +1,9 @@
-## Hi there 👋
+
+
+<a href = "https://simpleonlinepharmacy.github.io/captainfun/"> Captain Fun's Homepage</A><BR>
+<a href = "https://simpleonlinepharmacy.github.io/funworld/"> Funworld Game</A><BR>
+<a href = "https://simpleonlinepharmacy.github.io/frogworld/"> Frogger Game</A><BR>
+
 
 <!--
 **simpleonlinepharmacy/simpleonlinepharmacy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
