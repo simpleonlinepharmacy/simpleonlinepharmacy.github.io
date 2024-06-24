@@ -1,4 +1,4 @@
-
+<div class="about_img"><img src="images/fpblank.png"></div>
 
 <a href = "https://simpleonlinepharmacy.github.io/captainfun/"> Captain Fun's Homepage</A><BR>
 <a href = "https://simpleonlinepharmacy.github.io/funworld/"> Funworld Game</A><BR>
