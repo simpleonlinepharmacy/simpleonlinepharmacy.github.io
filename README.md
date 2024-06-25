@@ -3,7 +3,8 @@
 <a href = "https://simpleonlinepharmacy.github.io/captainfun/"> Captain Fun's Homepage</A><BR>
 <a href = "https://simpleonlinepharmacy.github.io/funworld/"> Funworld Game</A><BR>
 <a href = "https://simpleonlinepharmacy.github.io/frogworld/"> Frogger Game</A><BR><BR>
-<a href = "https://simpleonlinepharmacy.github.io/buttercup/"> Derek's Dandelion Test</A>
+<a href = "https://simpleonlinepharmacy.github.io/buttercup/"> Derek's Dandelion Test</A><BR><BR>
+<a href = "https://simpleonlinepharmacy.github.io/repair/"> HELP! The coffee machine is not working!!</A>
 
 
 <!--
