@@ -14,7 +14,7 @@ body {
   margin: 20px auto;
   position: fixed;
   left: 120px;
-  background-image: url("logo.png");
+  background-image: url("deep-sea.jpg");
   overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ body {
 .pole {
   width: 50px;
   height: 125px;
-  background-image: url("atp.png");
+  background-image: url("jellyfish.png");
   position: absolute;
   right: 100px;
 }
