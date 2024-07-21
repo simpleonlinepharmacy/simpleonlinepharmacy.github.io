@@ -1,12 +1,4 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GS3KEZHFNL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-GS3KEZHFNL');
-</script>
 <div class="about_img"><img src="images/fpblank.png"></div>
 
 <a href = "https://simpleonlinepharmacy.github.io/captainfun/"> Captain Fun's Homepage</A><BR>
