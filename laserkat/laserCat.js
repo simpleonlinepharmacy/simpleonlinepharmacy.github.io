@@ -161,7 +161,7 @@
 		numberOfFrames: 15,
 		ticksPerFrame: 4,
 		scaleRatio: 1,
-		loop: true
+		loop: false
 	});
 	deathSplodeImage = new Image();
 	deathSplodeImage.src =
