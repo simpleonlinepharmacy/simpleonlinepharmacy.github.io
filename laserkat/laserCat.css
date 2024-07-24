@@ -1,0 +1,172 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 auto;
+  background-image: url("spacelarge.jpg");
+  background-repeat: repeat;
+  min-width:542px;
+}
+.backgroundimg {
+  position: fixed;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+}
+#back1 {
+  background: url("spacelarge.jpg") repeat center scroll;
+  z-index: 0;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#back2 {
+  background: url("outer-space-stars.jpeg") repeat center scroll;
+  z-index: -1;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#back3 {
+  background: url("spacetile.jpg") repeat center scroll;
+  z-index: -2;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#back4 {
+  background: url("stars.gif") repeat center scroll;
+  z-index: -3;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(6);
+  }
+}
+@-webkit-keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(5);
+  }
+}
+#backgroundchange div:nth-of-type(1) {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+#backgroundchange div:nth-of-type(2) {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+}
+#backgroundchange div:nth-of-type(3) {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+}
+#backgroundchange div:nth-of-type(4) {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation-delay: 18s;
+  -webkit-animation-delay: 18s;
+}
+#backgroundchange div {
+  animation-name: backgroundchangeFadeInOut;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+  -webkit-animation-name: backgroundchangeFadeInOut;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 24s;
+}
+#canvas {
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: none !important;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#blinker {
+  position: absolute;
+  top: -85%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe, 4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
+	z-index: -1;
+}
+@-moz-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-o-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
