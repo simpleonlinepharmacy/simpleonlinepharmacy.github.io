@@ -308,7 +308,7 @@
 			enemy.degrees = degrees;
 			//check to see if they have fallen out of view-->remove if so
 			if (enemy.y > c.height || enemy.x < -100 || enemy.x > width) {
-				enemies.splice(i, 1);
+				enemies.splice(i, 1); score = score-1
 			}
 			//include weapon firing conditions/drawing updates PRIOR to...
 			//drawing enemies to achieve proper appearance during gameplay...
@@ -357,8 +357,7 @@
 							scaleRatio: 1,
 							loop: false
 						});
-						newFx.image.src =
-		"https://minauteur.github.io/microwavemansion.com/lasercat/deathsplosion.png";
+						newFx.image.src ="deathsplosion.png";
 						newFx.x =	enemy.x - getRandomIntInc(180, 220);
 						newFx.y =	enemy.y - getRandomIntInc(200, 240);
 						newFx.scaleRatio = range(1.6, 2.01);
