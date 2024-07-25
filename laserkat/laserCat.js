@@ -304,7 +304,7 @@
 		for (var i = 0; i < enemies.length; i++) {
 			var enemy = enemies[i];
 			
-			enemy.y = enemy.y + 4;
+			enemy.y = enemy.y + 6;
 			enemy.degrees = degrees;
 			//check to see if they have fallen out of view-->remove if so
 			if (enemy.y > c.height || enemy.x < -100 || enemy.x > width) {
