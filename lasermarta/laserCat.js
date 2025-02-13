@@ -185,8 +185,8 @@
 			"rat.png";
 		this.x = x || 0;
 		this.y = y || 0;
-		this.width = width || 100;
-		this.height = height || 108;
+		this.width = width || 200;
+		this.height = height || 216;
 		this.degrees = degrees || degrees;
 		this.weapon = weapon || false;
 		this.health = health || 100;
