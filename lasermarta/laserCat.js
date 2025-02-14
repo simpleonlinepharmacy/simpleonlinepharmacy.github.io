@@ -244,18 +244,11 @@
 		dirY = c.height - event.offsetY;
 	};
 	//click for laser targeting
-	// Mouse click to fire laser
-	c.addEventListener("mousedown", function(e) {
-	    mouseCoords.x = e.pageX;
-	    mouseCoords.y = e.pageY;
-	    cat.weapon.trigger();
+	c.addEventListener("click", function(e) {
+		mouseCoords.x = e.pageX;
+		mouseCoords.y = e.pageY;
+		cat.weapon.trigger();
 	});
-
-	// Mouse release to stop laser
-	c.addEventListener("mouseup", function() {
-	    cat.weapon.active = false;
-	});
-
 
 	//---------//
 	//Main Loop//
