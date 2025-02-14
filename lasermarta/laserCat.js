@@ -456,7 +456,7 @@
 			x: 0,
 			y: 0
 		},
-		damage: 4,
+		damage: 10,
 		opacity: 1
 	};
 	//letting our hitTest function know when to run
