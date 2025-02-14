@@ -185,8 +185,8 @@
 			"rat.png";
 		this.x = x || 0;
 		this.y = y || 0;
-		this.width = width || 200;
-		this.height = height || 216;
+		this.width = width || 100;
+		this.height = height || 108;
 		this.degrees = degrees || degrees;
 		this.weapon = weapon || false;
 		this.health = health || 100;
@@ -244,11 +244,18 @@
 		dirY = c.height - event.offsetY;
 	};
 	//click for laser targeting
-	c.addEventListener("click", function(e) {
-		mouseCoords.x = e.pageX;
-		mouseCoords.y = e.pageY;
-		cat.weapon.trigger();
+	// Mouse click to fire laser
+	c.addEventListener("mousedown", function(e) {
+	    mouseCoords.x = e.pageX;
+	    mouseCoords.y = e.pageY;
+	    cat.weapon.trigger();
 	});
+
+	// Mouse release to stop laser
+	c.addEventListener("mouseup", function() {
+	    cat.weapon.active = false;
+	});
+
 
 	//---------//
 	//Main Loop//
@@ -456,7 +463,7 @@
 			x: 0,
 			y: 0
 		},
-		damage: 10,
+		damage: 4,
 		opacity: 1
 	};
 	//letting our hitTest function know when to run
